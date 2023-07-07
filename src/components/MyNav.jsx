@@ -14,13 +14,13 @@ const MyNav = () => {
                 <img className="nav_logo_w" src={Logo} alt="Logo" />
               </a>
               <div className="d-flex align-items-center gap-2 gap-sm-4">
-                <a href="#">
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den">
                   <img className="nav_app_w" src={App_1} alt="App_1" />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den">
                   <img className="nav_app_w" src={app_2} alt="App_1" />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den">
                   <img className="nav_app_w" src={App_3} alt="App_1" />
                 </a>
               </div>
