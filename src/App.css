@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Press+Start+2P&display=swap');
+
+.ff_mono {
+  font-family: "IBM Plex Mono", monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_press {
+  font-family: "Press Start 2P", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root {
+  --fs-1x4l: 13px;
+  --fs-1x5l: 14px;
+  --fs-1x6l: 15px;
+  --fs-2xl: 15px;
+  --fs-2x8l: 18px;
+  --fs-3x7l: 20px;
+  --fs-8x5l: 31px;
+  --clr-orange: #f61529;
+}
+
+.fs_1x4l {
+  font-size: var(--fs-1x4l);
+}
+
+.fs_1x5l {
+  font-size: var(--fs-1x5l);
+}
+
+.fs_1x6l {
+  font-size: var(--fs-1x6l);
+}
+
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+
+.fs_2x8l {
+  font-size: var(--fs-2x8l);
+}
+
+.fs_3x7l {
+  font-size: var(--fs-3x7l);
+}
+
+.fs_8x5l {
+  font-size: var(--fs-8x5l);
+}
+
+.clr_orange {
+  color: var(--clr-orange);
+}
+
+.custom_container_nav {
+  max-width: 1620px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.hero_sec_custopm_container {
+  max-width: 1360px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.nav_logo_w {
+  max-width: 190px;
+}
+
+.nav_app_w {
+  max-width: 25px;
+  transition: 0.4s ease-in-out;
+}
+
+.line_h_146 {
+  line-height: 146%;
+}
+
+.line_h_189 {
+  line-height: 189%;
+}
+
+.text_line {
+  text-decoration: line-through !important;
+  text-decoration-color: #f61529 !important;
+}
+
+.tree_img_w {
+  max-width: 70px;
+}
+
+.btn_wallet {
+  border-radius: 69.041px;
+  background: #F61529;
+  padding: 19px 22px;
+  transition: 0.6s ease-in-out;
+}
+
+.btn_wallet:hover {
+  background: white;
+  color: #F61529 !important;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.nav_app_w:hover {
+  transform: translateY(-8px);
+}
+
+.gif_img {
+  top: -2px;
+  left: -2px;
+}
+
+@media(min-width:575.98px) {
+  .nav_logo_w {
+    max-width: 290px;
+  }
+
+  .nav_app_w {
+    max-width: 35px;
+  }
+
+  .tree_img_w {
+    max-width: 90px;
+  }
+
+  :root {
+    --fs-1x4l: 14px;
+    --fs-1x5l: 15px;
+    --fs-1x6l: 16px;
+    --fs-2xl: 18px;
+    --fs-2x8l: 25px;
+    --fs-3x7l: 30px;
+    --fs-8x5l: 60px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width:767.98px) {
+  .nav_logo_w {
+    max-width: 450px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav_app_w {
+    max-width: 45px;
+  }
+
+  .tree_img_w {
+    max-width: 120px;
+  }
+
+  :root {
+    --fs-2xl: 20px;
+    --fs-2x8l: 28px;
+    --fs-3x7l: 37px;
+    --fs-8x5l: 75px;
+  }
+}
+
+@media (min-width:991.98px) {
+  .nav_logo_w {
+    max-width: 573px;
+  }
+
+  .nav_app_w {
+    max-width: 49px;
+  }
+
+  .tree_img_w {
+    max-width: 160px;
+  }
+
+  .min_h_100_lg {
+    min-height: 100vh;
+  }
+
+}
+
+@media (min-width:1199.98px) {
+  .walllet_img_w {
+    max-width: 346px;
   }
 }
